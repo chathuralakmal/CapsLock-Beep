@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44A2D9081DB49F8C00D618D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A2D9071DB49F8C00D618D3 /* AppDelegate.m */; };
+		44A2D90B1DB49F8C00D618D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A2D90A1DB49F8C00D618D3 /* main.m */; };
+		44A2D90E1DB49F8C00D618D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A2D90D1DB49F8C00D618D3 /* ViewController.m */; };
+		44A2D9101DB49F8C00D618D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A2D90F1DB49F8C00D618D3 /* Assets.xcassets */; };
+		44A2D9131DB49F8C00D618D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A2D9111DB49F8C00D618D3 /* Main.storyboard */; };
+		44A2D91B1DB4A5FC00D618D3 /* beep-06.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44A2D91A1DB4A5FC00D618D3 /* beep-06.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44A2D9031DB49F8C00D618D3 /* CapsLock Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CapsLock Detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A2D9061DB49F8C00D618D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44A2D9071DB49F8C00D618D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44A2D90A1DB49F8C00D618D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44A2D90C1DB49F8C00D618D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44A2D90D1DB49F8C00D618D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44A2D90F1DB49F8C00D618D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44A2D9121DB49F8C00D618D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44A2D9141DB49F8C00D618D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44A2D91A1DB4A5FC00D618D3 /* beep-06.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beep-06.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44A2D9001DB49F8C00D618D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44A2D8FA1DB49F8C00D618D3 = {
+			isa = PBXGroup;
+			children = (
+				44A2D9051DB49F8C00D618D3 /* CapsLock Detector */,
+				44A2D9041DB49F8C00D618D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44A2D9041DB49F8C00D618D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44A2D9031DB49F8C00D618D3 /* CapsLock Detector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44A2D9051DB49F8C00D618D3 /* CapsLock Detector */ = {
+			isa = PBXGroup;
+			children = (
+				44A2D91A1DB4A5FC00D618D3 /* beep-06.mp3 */,
+				44A2D9061DB49F8C00D618D3 /* AppDelegate.h */,
+				44A2D9071DB49F8C00D618D3 /* AppDelegate.m */,
+				44A2D90C1DB49F8C00D618D3 /* ViewController.h */,
+				44A2D90D1DB49F8C00D618D3 /* ViewController.m */,
+				44A2D90F1DB49F8C00D618D3 /* Assets.xcassets */,
+				44A2D9111DB49F8C00D618D3 /* Main.storyboard */,
+				44A2D9141DB49F8C00D618D3 /* Info.plist */,
+				44A2D9091DB49F8C00D618D3 /* Supporting Files */,
+			);
+			path = "CapsLock Detector";
+			sourceTree = "<group>";
+		};
+		44A2D9091DB49F8C00D618D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44A2D90A1DB49F8C00D618D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44A2D9021DB49F8C00D618D3 /* CapsLock Detector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A2D9171DB49F8C00D618D3 /* Build configuration list for PBXNativeTarget "CapsLock Detector" */;
+			buildPhases = (
+				44A2D8FF1DB49F8C00D618D3 /* Sources */,
+				44A2D9001DB49F8C00D618D3 /* Frameworks */,
+				44A2D9011DB49F8C00D618D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CapsLock Detector";
+			productName = "CapsLock Detector";
+			productReference = 44A2D9031DB49F8C00D618D3 /* CapsLock Detector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44A2D8FB1DB49F8C00D618D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Chathura;
+				TargetAttributes = {
+					44A2D9021DB49F8C00D618D3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 44A2D8FE1DB49F8C00D618D3 /* Build configuration list for PBXProject "CapsLock Detector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44A2D8FA1DB49F8C00D618D3;
+			productRefGroup = 44A2D9041DB49F8C00D618D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44A2D9021DB49F8C00D618D3 /* CapsLock Detector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44A2D9011DB49F8C00D618D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A2D9101DB49F8C00D618D3 /* Assets.xcassets in Resources */,
+				44A2D91B1DB4A5FC00D618D3 /* beep-06.mp3 in Resources */,
+				44A2D9131DB49F8C00D618D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44A2D8FF1DB49F8C00D618D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A2D90E1DB49F8C00D618D3 /* ViewController.m in Sources */,
+				44A2D90B1DB49F8C00D618D3 /* main.m in Sources */,
+				44A2D9081DB49F8C00D618D3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44A2D9111DB49F8C00D618D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44A2D9121DB49F8C00D618D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44A2D9151DB49F8C00D618D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		44A2D9161DB49F8C00D618D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		44A2D9181DB49F8C00D618D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CapsLock Detector/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fexcon.CapsLock-Detector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44A2D9191DB49F8C00D618D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CapsLock Detector/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fexcon.CapsLock-Detector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44A2D8FE1DB49F8C00D618D3 /* Build configuration list for PBXProject "CapsLock Detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A2D9151DB49F8C00D618D3 /* Debug */,
+				44A2D9161DB49F8C00D618D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44A2D9171DB49F8C00D618D3 /* Build configuration list for PBXNativeTarget "CapsLock Detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A2D9181DB49F8C00D618D3 /* Debug */,
+				44A2D9191DB49F8C00D618D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44A2D8FB1DB49F8C00D618D3 /* Project object */;
+}
