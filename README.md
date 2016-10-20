@@ -1,4 +1,4 @@
-# CapsLock-Beep for macOS
+# Caps Lock press detector for macOS & OSX
 
 Make the [CAPSLOCK] key beep when you press it, especially handy if you did it accidentally.
 
